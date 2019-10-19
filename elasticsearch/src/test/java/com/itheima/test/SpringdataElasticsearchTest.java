@@ -33,7 +33,12 @@ public class SpringdataElasticsearchTest {
         elasticsearchTemplate.createIndex(Cluster.class);
     }
 
-    @Test
+   @Test
+   public void test(){
+       System.out.println("aaaaaa");
+   }
+
+  @Test
     public void deleteIndex(){
         elasticsearchTemplate.deleteIndex(Cluster.class);
     }
